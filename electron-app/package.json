@@ -1,0 +1,16 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "tsc & electron ./app.js",
+    "lint": "tslint ./**/*.ts --exclude ./**/*.d.ts",
+    "package": "electron-packager ./ \"Password Generator\" --platform=win32 --arch=x64"
+  },
+  "author": "Barend Erasmus",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.7.9"
+  }
+}

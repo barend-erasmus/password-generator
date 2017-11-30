@@ -8,13 +8,14 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   public password: string;
+  public passwordLength: number = 16;
 
   constructor() {
-    this.password = this.generatePassword(16);
+    this.password = this.generatePassword(this.passwordLength);
   }
 
   public onClick_Generate(): void {
-    this.password = this.generatePassword(16);
+    this.password = this.generatePassword(this.passwordLength);
   }
 
   public generatePassword(length: number): string {

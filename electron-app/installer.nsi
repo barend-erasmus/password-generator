@@ -1,3 +1,6 @@
+Name "Password Generator"
+Icon "D:\Git\barend-erasmus\password-generator\electron-app\favicon.ico"
+
 Outfile "Password Generator.exe"
 
 InstallDir "$PROGRAMFILES\Password Generator"

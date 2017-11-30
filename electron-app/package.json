@@ -6,7 +6,7 @@
   "scripts": {
     "start": "tsc & electron ./app.js",
     "lint": "tslint ./**/*.ts --exclude ./**/*.d.ts",
-    "package": "electron-packager ./ \"Password Generator\" --platform=win32 --arch=x64"
+    "package": "electron-packager ./ \"Password Generator\" --prune=true --platform=win32 --arch=x64 --icon=favicon.ico --overwrite"
   },
   "author": "Barend Erasmus",
   "license": "MIT",
